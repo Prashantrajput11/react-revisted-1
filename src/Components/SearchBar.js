@@ -1,6 +1,8 @@
 import React from 'react';
 import './searchbar.css';
 
+import filterData from '../../Utils/utils';
+
 export function SearchBar({ search, onSearchTextChange }) {
   const fruits = [
     { name: 'apple', price: 30, inStock: true },
