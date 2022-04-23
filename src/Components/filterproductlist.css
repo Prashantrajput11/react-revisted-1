@@ -1,0 +1,18 @@
+.header {
+  border: 2px solid black;
+  padding: 20px;
+  height: 70vh;
+}
+
+.nav {
+  background: #4dff4d;
+  padding: 10px;
+  text-align: center;
+  transition: all 0.4s;
+}
+
+.nav:hover {
+  background: #00e600;
+  padding: 10px;
+  text-align: center;
+}
